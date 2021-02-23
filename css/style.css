@@ -1,161 +1,64 @@
 body{
-  margin: auto;
+  margin: 0;
+  padding: 0;
 }
 
 header{
-  background-color:#4EA0FF;
-  height: 80px;
-  background-attachment: local;
-}
-
-.background-top{
-  position: Absolute;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top2{
-  position: Absolute;
-  left: 150px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top3{
-  position: Absolute;
-  height: 151px;
-  left: 300px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top4{
-  position: Absolute;
-  height: 151px;
-  left: 450px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top5{
-  position: Absolute;
-  left: 600px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top6{
-  position: Absolute;
-  left: 750px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top7{
-  position: Absolute;
-  left: 900px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top8{
-  position: Absolute;
-  left: 1050px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top9{
-  position: Absolute;
-  left: 1200px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top10{
-  position: Absolute;
-  left: 1350px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top11{
-  position: Absolute;
-  left: 1500px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top12{
-  position: Absolute;
-  left: 1650px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.background-top13{
-  position: Absolute;
-  left: 1800px;
-  height: 151px;
-  clip: Rect(0px 200px 79px 0px);
-  background-attachment: local;
-}
-
-.logo{
   height: 100px;
-  width: 200px;
-  position: Absolute;
-  left: 400px;
-  top: -3px;
-  background-attachment: local;
+  background-color: #4EA0FF;
+  background-image: url(../img/pattern.png);
+  background-size: 21%;
 }
 
-.block-container{
-  width: 1100px;
+.container{
+  width: 80%;
   margin: auto;
 }
 
+.logo{
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+
 main{
   text-align: left;
-  margin-left: 300px;
-  margin-right: 300px;
-  background-attachment: scroll;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15px;
 }
 
 .font-h1{
   font-size: 40px;
+  line-height: 40px;
 }
 
 .font-p1{
   font-size: 19px;
-  color: grey;
+  color:#808080;
   position: relative;
   top: -30px;
 }
 
 .font-p2{
   font-size: 12px;
-  color: grey;
+  color: #808080;
   position: relative;
-  top: -30px;
+  top: -45px;
+}
+
+.photo{
+  margin-top: -40px;
 }
 
 #color1{
   color: #1baaec;
 }
 
-#small-font{
-  font-size: 13px;
+.caption{
+  font-size: 12px;
+  margin-top: 0;
 }
 
 #color2{
@@ -165,15 +68,18 @@ main{
 .list{
   position: relative;
   left: -25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .table{
   table-layout: fixed;
   width: 100%;
+  border-spacing: 0;
 }
 
 .thead{
-  background-color: #05b8ff;
+  background-color: #20A9E5;
 }
 
 #thead-color{
@@ -181,48 +87,42 @@ main{
 }
 
 .tbody{
-  background-color: #85d3f1;
+  background-color: #B1E5F2;
 }
 
 .tfoot{
-  background-color: #85d3f1;
+  background-color: #B1E5F2;
 }
 
 footer{
   text-align: left;
-  margin-left: 400px;
-  margin-right: 400px;
-  background-attachment: scroll;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.font-p3{
-  font-size: 19px;
-  color: grey;
-  position: relative;
-  bottom: -10px;
+footer h4{
+  color: #808080;
+  font-size: 17px;
+  margin-bottom: -10px;
 }
 
-.text-img{
-  color: white;
-  font-size: 150%; 
-  line-height: 50px;
-  position: relative;
-  height: 150px;
-  top: -460px;
-  right: -15px;            
+footer h3{
+  color: #fff;
+  line-height: 45px;
+  margin-left: 15px;
 }
 
-.text-img2{
-  color: white;
-  font-size: 150%; 
-  line-height: 50px;
-  position: relative;
-  height: 150px;
-  top: -430px; 
-  right: -15px;        
+footer .image{
+  width: 230px;
+  height: 160px;
+  background-size: cover;
+  margin: 10px 0;
 }
 
-.block-container2{
-  width: 1100px;
-  margin: auto;
+#image-monitor{
+  background-image: url(../img/monitor.jpg);
 }
+
+#image-graph{
+  background-image: url(../img/graph.jpg);
+}    
