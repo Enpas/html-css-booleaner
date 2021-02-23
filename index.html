@@ -11,20 +11,7 @@
 
    <!-- parte iniziale -->
    <header>
-    <div>
-      <img class="background-top" src="img/pattern.png" alt="sfondo">
-      <img class="background-top2" src="img/pattern.png" alt="sfondo">
-      <img class="background-top3" src="img/pattern.png" alt="sfondo">
-      <img class="background-top4" src="img/pattern.png" alt="sfondo">
-      <img class="background-top5" src="img/pattern.png" alt="sfondo">
-      <img class="background-top6" src="img/pattern.png" alt="sfondo">
-      <img class="background-top7" src="img/pattern.png" alt="sfondo">
-      <img class="background-top8" src="img/pattern.png" alt="sfondo">
-      <img class="background-top9" src="img/pattern.png" alt="sfondo">
-      <img class="background-top10" src="img/pattern.png" alt="sfondo">
-      <img class="background-top11" src="img/pattern.png" alt="sfondo">
-      <img class="background-top12" src="img/pattern.png" alt="sfondo">
-      <img class="background-top13" src="img/pattern.png" alt="sfondo">
+    <div class="container">
       <img class="logo"src="img/logo.svg" alt="logo">
     </div>
   </header>
@@ -33,15 +20,17 @@
 
   <!-- parte centrale -->
   <main>
-    <div class="block-container">
+    <div class="container">
     <section>
-        <h1 class="font-h1">Internet deve essere al servizio del "bene pubblico": il <br>
+        <h1 class="font-h1">Internet deve essere al servizio del "bene pubblico": il 
         manifesto di Tim Berners-Lee</h1>
         <p class="font-p1">Scritto da <span id="color1">The Booleaner</span></p>
         <p class="font-p2">il 10/10/2020</p>
-        <img src="img/tim-1.jpg" alt="man">
-        <img src="img/tim-2.jpg" alt="man">
-        <p id="small-font">1st Photo:John S. and James L. Knight Foundetion, by Scott Henrichsen<br>2st Photo: Wikimedia, by Paul Clarke</p>
+        <div class="photo">
+          <img src="img/tim-1.jpg" alt="Tim parla">
+          <img src="img/tim-2.jpg" alt="Tim guarda">
+        </div>
+        <p class="caption">1st Photo:John S. and James L. Knight Foundetion, by Scott Henrichsen<br>2st Photo: Wikimedia, by Paul Clarke</p>
     </section>
     
     <section>
@@ -99,6 +88,7 @@
         <span id="color2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Numquam quisquam excepturi vel, hic aut velit officia tempore architecto perspiciatis cupiditate.Tempore facere explicabo sapiente, veritatis porro voluptatibus beatae maxime doloremque.
       </p>
     </div>
+    </div>
   </main>
   <!-- /parte centrale -->
 
@@ -106,12 +96,14 @@
   <!-- parte finale -->
   <footer>
     <section>
-      <div class="block-container2">
-      <p class="font-p3">Potrebbero interessarti</p>
-      <img src="img/monitor.jpg" alt="monitor"><br>
-      <img src="img/graph.jpg" alt="grafico">
-      <h4 class="text-img">Lorem ipsum dolor</h4>
-      <h4 class="text-img2">Lorem ipsum dolor</h4>
+      <div class="container">
+          <h4>Potrebbero interessarti</h4>
+        <div class="image" id="image-monitor">
+          <h3>Lorem ipsum dolor</h3>
+        </div>
+        <div class="image" id="image-graph">
+          <h3>Lorem ipsum dolor</h3>
+        </div>
     </div>
     </section>
   </footer>
